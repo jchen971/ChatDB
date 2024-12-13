@@ -1,5 +1,3 @@
 pymysql
 nltk
 pandas
-datetime
-random
