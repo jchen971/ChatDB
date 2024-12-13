@@ -12,3 +12,15 @@ ChatDB is a Python-based tool that enables users to analyze datasets using SQL q
 Outputs results and SQL descriptions.
 
 4. requirements.txt: Lists all required Python libraries for the program, including their versions (e.g., nltk, pymysql).
+
+## Database Setup
+1. Import the dataset:
+   - The dataset is included in the `costco_dataset` folder on GitHub.
+   - Use a MySQL client (e.g., DBeaver, MySQL Workbench, or command line) to import the dataset into your database.
+
+2. Ensure the following:
+   - The database and table names match the ones specified in the program.
+   - Your MySQL credentials are configured correctly in `simple_chatdb.py`.
+
+3. Optional:
+   - DBeaver can be used to visualize and manage the imported dataset.
